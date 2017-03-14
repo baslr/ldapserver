@@ -46,4 +46,5 @@ Open your browser and navigate to ldapserverhost/phpldapadmin
 Login with the password you provided while installing slapd. Click on `Create new entry here` and select `Generic: Simple Security Object` and you can add a user.
 
 Glossary
+--------
 DN = Distinguished Name
