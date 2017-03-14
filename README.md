@@ -1,6 +1,7 @@
 # ldapserver-demo
 
-partial source: https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-a-basic-ldap-server-on-an-ubuntu-12-04-vps
+sources: https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-a-basic-ldap-server-on-an-ubuntu-12-04-vps, http://www.linuxdevcenter.com/pub/a/linux/2003/08/14/libldap.html
+
 
 
 4 Debian jessie / sid
@@ -39,3 +40,7 @@ config /etc/phpldapadmin/config.php
     $servers->setValue('server','host','domain_nam_or_IP_address');
     $servers->setValue('server','base',array('dc=test,dc=com'));
     $servers->setValue('login','bind_id','cn=admin,dc=test,dc=com');
+
+
+
+DN = Distinguished Name
