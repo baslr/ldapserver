@@ -33,3 +33,8 @@ Move old database? Yes
 
     # aptitude install phpldapadmin
     # aptitude install php-xml
+
+config /etc/phpldapadmin/config.php
+$servers->setValue('server','host','domain_nam_or_IP_address');
+$servers->setValue('server','base',array('dc=test,dc=com'));
+$servers->setValue('login','bind_id','cn=admin,dc=test,dc=com');
