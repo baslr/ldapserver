@@ -32,3 +32,4 @@ Remove the database when slapd is purged? No
 Move old database? Yes
 
     # aptitude install phpldapadmin
+    # aptitude install php-xml
