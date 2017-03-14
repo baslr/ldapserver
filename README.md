@@ -2,6 +2,7 @@
 
 sources: https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-a-basic-ldap-server-on-an-ubuntu-12-04-vps, http://www.linuxdevcenter.com/pub/a/linux/2003/08/14/libldap.html
 
+Guide: http://www.zytrax.com/books/ldap/apa/
 
 
 4 Debian jessie / sid
